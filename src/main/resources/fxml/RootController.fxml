@@ -11,7 +11,7 @@
 
 <BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <top>
-      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER" BorderPane.alignment="CENTER">
          <children>
             <Label text="Capital">
                <HBox.margin>
@@ -52,7 +52,7 @@
       </HBox>
    </top>
    <center>
-      <TableView fx:id="datosTableView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <TableView fx:id="datosTableView" BorderPane.alignment="CENTER">
         <columns>
           <TableColumn fx:id="numeroColumn" prefWidth="75.0" text="Número" />
           <TableColumn fx:id="anyoColumn" prefWidth="75.0" text="Año" />

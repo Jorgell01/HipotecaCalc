@@ -28,14 +28,14 @@ HipotecaCalc es una aplicación JavaFX para calcular las cuotas de una hipoteca.
     mvn exec:java
     ```
 #### Estado inicial
-Aquí puedes ver cómo luce la aplicación cuando está vacía, sin datos ingresados:   
-![Vista inicial](images/appdefault.png)
+Aquí puedes ver cómo luce la aplicación cuando está vacía, sin datos ingresados:
+![Vista inicial](appdefault.png)
 
 2. Ingresa el capital, el interés y el plazo de la hipoteca en los campos correspondientes.
 
 #### Datos ingresados
 Este es el aspecto de la aplicación después de ingresar el capital, interés y plazo:
-![Vista con datos](images/appcondatos.png)
+![Vista con datos](appcondatos.png)
 
 3. Haz clic en el botón "Calcular" para obtener el desglose de las cuotas.
 
