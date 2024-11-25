@@ -73,14 +73,6 @@ public class RootController implements Initializable {
     }
 
     public void initialize(URL location, ResourceBundle resources) {
-        assert numeroColumn != null : "fx:id 'numeroColumn' no fue inyectado. Revisa el archivo FXML.";
-        assert anyoColumn != null : "fx:id 'anyoColumn' no fue inyectado. Revisa el archivo FXML.";
-        assert mesColumn != null : "fx:id 'mesColumn' no fue inyectado. Revisa el archivo FXML.";
-        assert capitalinicialColumn != null : "fx:id 'capitalInicialColumn' no fue inyectado. Revisa el archivo FXML.";
-        assert interesesColumn != null : "fx:id 'interesesColumn' no fue inyectado. Revisa el archivo FXML.";
-        assert capitalamortizadoColumn != null : "fx:id 'capitalAmortizadoColumn' no fue inyectado. Revisa el archivo FXML.";
-        assert cuotaColumn != null : "fx:id 'cuotaColumn' no fue inyectado. Revisa el archivo FXML.";
-        assert capitalpendienteColumn != null : "fx:id 'capitalPendienteColumn' no fue inyectado. Revisa el archivo FXML.";
 
         // Configuración de las columnas
         numeroColumn.setCellValueFactory(new PropertyValueFactory<>("numero"));
